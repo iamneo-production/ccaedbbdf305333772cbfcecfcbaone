@@ -13,8 +13,8 @@ terraform {
 
 provider "aws" {
   	region     = "us-west-2"
-	access_key = "my-access-key"
-  	secret_key = "my-secret-key"
+	access_key = "AKIA5BXG62H6OEXT5HXJ"
+  	secret_key = "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"
 }
 
 
@@ -22,7 +22,7 @@ provider "aws" {
 
 resource "aws_instance" "manjunath" {
 
- 	ami= "10.0.0.0/16"
+ 	ami= "ami-0d52744d6551d851e"
 	instance_type="t2.micro"
 
 }
